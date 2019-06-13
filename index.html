@@ -16,6 +16,7 @@ git commit
 esc   :q   退出
 esc   :q!  退出
 git commit -m "这里是备注"
+git commit --all -m "这里是备注"
 //////////////
 查看仓库是否有东西
 git status
@@ -26,4 +27,5 @@ git status
 Git log
 git --oneline   精简查询
 =============================
-新文本
+回退到指定的版本
+git reset --hard Head~版本的index
